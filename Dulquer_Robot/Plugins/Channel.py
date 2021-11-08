@@ -5,15 +5,15 @@ import asyncio
 from pyrogram import Client, filters
 from pyrogram.errors import UserAlreadyParticipant, FloodWait
 
-from DonLee_Robot import VERIFY # pylint: disable=import-error
-from DonLee_Robot.donlee_robot import DonLee_Robot # pylint: disable=import-error
-from DonLee_Robot.Database import Database # pylint: disable=import-error
-from DonLee_Robot.Plugins.Auto_Filter import recacher # pylint: disable=import-error
+from Dulquer_Robot import VERIFY # pylint: disable=import-error
+from Dulquer_Robot.dulquer_robot import Dulquer_Robot # pylint: disable=import-error
+from Dulquer_Robot.Database import Database # pylint: disable=import-error
+from Dulquer_Robot.Plugins.Auto_Filter import recacher # pylint: disable=import-error
 
 db = Database()
 
 @DonLee_Robot.on_message(filters.command(["add"]) & filters.group, group=1)
-async def connect(bot: DonLee_Robot, update):
+async def connect(bot: Dulquer_Robot, update):
     """
     A Funtion To Handle Incoming /add Command TO COnnect A Chat With Group
     """
@@ -284,7 +284,7 @@ async def delall(bot: DonLee_Robot, update):
     await update.reply_text("Sucessfully Deleted All Connected Chats From This Group....")
 
 
-@DonLee_Robot.on_message(filters.channel & (filters.video | filters.audio | filters.document) & ~filters.edited, group=0)
+@Dulquer_Robot.on_message(filters.channel & (filters.video | filters.audio | filters.document) & ~filters.edited, group=0)
 async def new_files(bot: DonLee_Robot, update):
     """
     A Funtion To Handle Incoming New Files In A Channel ANd Add Them To Respective Channels..
