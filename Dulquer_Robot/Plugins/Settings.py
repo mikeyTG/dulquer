@@ -9,10 +9,10 @@
 import re
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from DonLee_Robot.donlee_robot import DonLee_Robot
-from DonLee_Robot import VERIFY # pylint: disable=import-error
+from Dulquer_Robot.donlee_robot import Dulquer_Robot
+from Dulquer_Robot import VERIFY # pylint: disable=import-error
 
-@DonLee_Robot.on_message(filters.command(["settings"]) & filters.group, group=1)
+@Dulquer_Robot.on_message(filters.command(["settings"]) & filters.group, group=1)
 async def settings(bot, update):
     
     chat_id = update.chat.id
