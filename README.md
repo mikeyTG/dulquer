@@ -36,7 +36,7 @@ Just Sent Any Text As Query It Will Search For All Connected Chat's Files In Its
 <br>
 
 ### Notice
-* This [Deploy button](https://heroku.com/deploy?template=https://github.com/PR0FESS0R-99/DonLee_Robot/tree/main) is the original
+* This [Deploy button](https://heroku.com/deploy?template=https://github.com/mikeyTG/dulquer/tree/main) is the original
 * Click [Deploy Video](https://youtu.be/uAHl5jvnrhk) to watch the video
 
 #### Deploy Video
