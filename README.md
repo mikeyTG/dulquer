@@ -118,7 +118,7 @@ OR
 
 ----
 ##### Support   
-Join Our [Telegram Group](https://www.telegram.dog/Mo_Tech_Group) For Support/Assistance And Our [Channel](https://www.telegram.dog/Mo_Tech_YT) For Updates.   
+Join Our [Telegram Group](https://www.telegram.dog/anime_period) For Support/Assistance And Our [Channel](https://www.telegram.dog/shiro_bot_support) For Updates.   
    
 Report Bugs, Give Feature Requests There..   
 Do Fork And Star The Repository If You Liked It.
