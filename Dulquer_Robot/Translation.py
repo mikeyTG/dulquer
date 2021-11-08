@@ -4,7 +4,7 @@
 
 class Translation(object):
     
-    START_TEXT = """<b>🙋‍♂️Hey {}!!</b>
+    START_TEXT = """<b>🙋‍♂️Hey !!</b>
 <b>I am Dulquer Robot Auto Filter Bot....😉</b>
 <b>Just Add Me To Your Group And Channel And Connect Them And See My SHIT..🔥🔥😝</b>
 <b>Watch the video below to build an Dulquer Adv Autofilter bot like me...</b>
