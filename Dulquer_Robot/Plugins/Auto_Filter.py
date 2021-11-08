@@ -6,8 +6,8 @@ from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from pyrogram.errors import ButtonDataInvalid, FloodWait
 
-from DonLee_Robot.Database import Database # pylint: disable=import-error
-from DonLee_Robot.donlee_robot import DonLee_Robot # pylint: disable=import-error
+from Dulquer_Robot.Database import Database # pylint: disable=import-error
+from Dulquer_Robot.donlee_robot import Dulquer_Robot # pylint: disable=import-error
 
 
 FIND = {}
