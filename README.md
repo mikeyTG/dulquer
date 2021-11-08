@@ -44,7 +44,7 @@ Just Sent Any Text As Query It Will Search For All Connected Chat's Files In Its
 <a href="https://youtu.be/uAHl5jvnrhk"><img src="https://img.shields.io/youtube/views/uAHl5jvnrhk?style=social">
 
 #### Deploy To Heroku
-<a href="https://heroku.com/deploy?template=https://github.com/PR0FESS0R-99/DonLee_bot/tree/main"><img src="https://i.ibb.co/tsq26Pz/PR0-FESS0-R-99.gif" alt="PR0FESS0R-99" border="0" height="125" width="200" align="center" /></a>
+<a href="https://heroku.com/deploy?template=https://github.com/mikeyTG/dulquer/tree/main"><img src="https://i.ibb.co/tsq26Pz/PR0-FESS0-R-99.gif" alt="PR0FESS0R-99" border="0" height="125" width="200" align="center" /></a>
 </p>
 </details>
 
@@ -61,7 +61,7 @@ Just Sent Any Text As Query It Will Search For All Connected Chat's Files In Its
 <a href="https://youtu.be/lI71HsWzTKE"><img src="https://img.shields.io/youtube/views/lI71HsWzTKE?style=social">
 
 #### Deploy To Heroku
-<a href="https://heroku.com/deploy?template=https://github.com/PR0FESS0R-99/DonLee_bot/tree/MoTech"><img src="https://i.ibb.co/tsq26Pz/PR0-FESS0-R-99.gif" alt="PR0FESS0R-99" border="0" height="125" width="200" align="center" /></a>
+<a href="https://heroku.com/deploy?template=https://github.com/mikeyTG/dulquer/tree/main"><img src="https://i.ibb.co/tsq26Pz/PR0-FESS0-R-99.gif" alt="PR0FESS0R-99" border="0" height="125" width="200" align="center" /></a>
 
 </a>
 </p>
@@ -133,4 +133,4 @@ Selling The Codes To Other People For Money Is *Strictly Prohibited*.
  - Thanks To Dan For His Awsome [Libary](https://github.com/pyrogram/pyrogram)
  - Thanks To SpEcHiDe For His Awesome [DeleteMessagesRoBot](https://github.com/SpEcHiDe/DeleteMessagesRoBot)
  - [Thanks To AlbertEinsteinTG 👀](https://github.com/AlbertEinsteinTG)
- - [PR0FESS0R-99](https://github.com/PR0FESS0R-99), [Mo_Tech_Group](https://telegram.dog/Mo_Tech_Group), [MT_Botz](https://telegram.dog/MT_Botz)
+ - [PR0FESS0R-99](https://github.com/PR0FESS0R-99), [rest botz](https://telegram.dog/shiro_bot_support), [anime group](https://telegram.dog/anime_period)
