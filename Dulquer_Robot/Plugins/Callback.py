@@ -6,19 +6,19 @@ from pyrogram import Client, filters
 from pyrogram.errors import FloodWait, UserNotParticipant
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 
-from DonLee_Robot.donlee_robot import DonLee_Robot
-from DonLee_Robot import start_uptime, Translation, VERIFY # pylint: disable=import-error
-from DonLee_Robot.Plugins.Auto_Filter import ( # pylint: disable=import-error
+from Dulquer_Robot.donlee_robot import Dulquer_Robot
+from Dulquer_Robot import start_uptime, Translation, VERIFY # pylint: disable=import-error
+from Dulquer_Robot.Plugins.Auto_Filter import ( # pylint: disable=import-error
     FIND, 
     INVITE_LINK, 
     ACTIVE_CHATS,
     recacher,
     gen_invite_links
     )
-from DonLee_Robot.Plugins.Settings import( # pylint: disable=import-error
+from Dulquer_Robot.Plugins.Settings import( # pylint: disable=import-error
     remove_emoji
 )
-from DonLee_Robot.Database import Database # pylint: disable=import-error
+from Dulquer_Robot.Database import Database # pylint: disable=import-error
 
 db = Database()
 
@@ -388,7 +388,7 @@ async def cb_channel_list(bot, update: CallbackQuery):
 
 
 
-@DonLee_Robot.on_callback_query(filters.regex(r"info\((.+)\)"), group=2)
+@Dulquer_Robot.on_callback_query(filters.regex(r"info\((.+)\)"), group=2)
 async def cb_info(bot, update: CallbackQuery):
     """
     A Callback Funtion For Displaying Details Of The Connected Chat And Provide
@@ -1602,14 +1602,14 @@ async def cb_about(bot, update: CallbackQuery):
     text=f"<i><u>Bot's Status</u></i>\n"
     text+=f"\n<b><i>Bot's Uptime:</i></b> <code>{time_formatter(time.time() - start_uptime)}</code>\n"
     text+=f"\n<b><i>Bot Funtion:</i></b> <i>Auto Filter Files</i>\n"
-    text+=f"""\n<b><i>Bot Support:</i></b> <a href="https://t.me/Mo_Tech_Group">@Mo_Tech_Group</a>\n"""
-    text+="""\n<b><i>Source Code:</i></b> <a href="https://github.com/PR0FESS0R-99/DonLee_Robot">Source</a>"""
+    text+=f"""\n<b><i>Bot Support:</i></b> <a href="https://t.me/shiro_bot_support">@shiro_bot_support</a>\n"""
+    text+="""\n<b><i>Source Code:</i></b> <a href="https://github.com/mikeyTG/dulquer">Source</a>"""
 
     buttons = [
         [
             InlineKeyboardButton
                 (
-                    "My Dev ⚡", url="https://t.me/MRK_YT"
+                    "My Dev ⚡", url="https://t.me/charmyanime"
                 ),
                 
             InlineKeyboardButton
@@ -1640,14 +1640,14 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/Mrk_YT'),
-            InlineKeyboardButton('Source Code 🧾', url ='https://github.com/PR0FESS0R-99/DonLee_bot')
+            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/charmyanime'),
+            InlineKeyboardButton('Source Code 🧾', url ='https://github.com/mikeyTG/dulquer')
         ],[
-            InlineKeyboardButton('🛠 Support 🛠', url='https://t.me/mo_Tech_yt')
+            InlineKeyboardButton('🛠 Support 🛠', url='https://t.me/shiro_bot_support')
         ],[
             InlineKeyboardButton('⚙ Help ⚙', callback_data="help")
         ],[
-            InlineKeyboardButton('💫 Deploy Video 💫', url='https://youtu.be/uAHl5jvnrhk')
+            InlineKeyboardButton('💫 Deploy Video 💫', url='https://www.youtube.com/channel/UCUpGuwZHUXy-Pkz17d6Vn_A')
         ]]
     
         reply_markup = InlineKeyboardMarkup(buttons)
