@@ -8,9 +8,9 @@
 
 from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
-from DonLee_Robot import Translation, LOGGER # pylint: disable=import-error
+from Dulquer_Robot import Translation, LOGGER # pylint: disable=import-error
 from DonLee_Robot.Database import Database # pylint: disable=import-error
-from DonLee_Robot.donlee_robot import DonLee_Robot
+from Dulquer_Robot.donlee_robot import Dulquer_Robot
 
 db = Database()
 
@@ -40,7 +40,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/mo_tech_YT"
+                                    'Developers', url="https://t.me/charmyanime"
                                 )
                         ]
                     ]
@@ -52,14 +52,14 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('My Dev 🧒', url='https://t.me/mrk_yt'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/PR0FESS0R-99/DonLee_bot')
+        InlineKeyboardButton('My Dev 🧒', url='https://t.me/charmyanime'),
+        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/mikeyTG/dulquer')
     ],[
-        InlineKeyboardButton('🛠 Support 🛠', url='https://t.me/mo_tech_yt')
+        InlineKeyboardButton('🛠 Support 🛠', url='https://t.me/shiro_bot_support')
     ],[
         InlineKeyboardButton('⚙ Help ⚙', callback_data="help")
     ],[
-        InlineKeyboardButton('💫 Deploy Video 💫', url='https://youtu.be/uAHl5jvnrhk')
+        InlineKeyboardButton('💫 Deploy Video 💫', url='https://www.youtube.com/channel/UCUpGuwZHUXy-Pkz17d6Vn_A')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
