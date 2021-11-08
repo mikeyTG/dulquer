@@ -29,7 +29,7 @@ Just Sent Any Text As Query It Will Search For All Connected Chat's Files In Its
 * Movie Text Mode (movie, Movie)
 
 --------
-##### Available DonLee Bots
+##### Available Dulquers Bots
 
 <details><summary>Auto Filter Orginal</summary>
 <p>
