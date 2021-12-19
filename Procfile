@@ -1,1 +1,1 @@
-worker: python3 -m Dulquer_Robot
+web: python3 -m Dulquer_Robot
